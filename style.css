@@ -1,0 +1,32 @@
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(4, auto); 
+    justify-content: end; 
+    background-color: black;
+    padding: 10px; 
+}
+
+.list-content {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    margin: 0 10px;
+}
+
+.list-item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: 0.15s;
+}
+
+.list-item a:hover {
+    color: red;
+    background-color: bisque;
+    opacity: 0.5;
+    cursor: pointer;
+}
